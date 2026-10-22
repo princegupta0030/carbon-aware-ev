@@ -33,7 +33,7 @@ def preprocess_data_pandas(data_dir="data"):
 
     # Aggregate to hourly intervals (mean for weather, sum for power)
     merged_df.set_index('DATE_TIME', inplace=True)
-    hourly_df = merged_df.resample('H').agg({
+    hourly_df = merged_df.resample('h').agg({
         'DC_POWER': 'sum',
         'AC_POWER': 'sum',
         'DAILY_YIELD': 'last', # Keep last value for cumulative
