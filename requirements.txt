@@ -4,5 +4,7 @@ matplotlib
 scikit-learn
 streamlit
 plotly
-pulp
+pulp<4.0.0
 joblib
+kaggle
+pyspark
