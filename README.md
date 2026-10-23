@@ -82,7 +82,7 @@ carbon-aware-ev/
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/princegupta0030/carbon-aware-ev.git
    cd carbon-aware-ev
    ```
 2. **Create a virtual environment (optional but recommended):**
